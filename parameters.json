@@ -1,0 +1,504 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachines_DB4_name": {
+            "value": null
+        },
+        "virtualMachines_DB5_name": {
+            "value": null
+        },
+        "virtualMachines_DB6_name": {
+            "value": null
+        },
+        "virtualMachines_adVM_name": {
+            "value": null
+        },
+        "virtualMachines_DB16_name": {
+            "value": null
+        },
+        "virtualMachines_DB62_name": {
+            "value": null
+        },
+        "virtualMachines_Job1_name": {
+            "value": null
+        },
+        "virtualNetworks_adVNET_name": {
+            "value": null
+        },
+        "networkInterfaces_adNic_name": {
+            "value": null
+        },
+        "networkInterfaces_db161_name": {
+            "value": null
+        },
+        "networkInterfaces_db439_name": {
+            "value": null
+        },
+        "networkInterfaces_db4487_name": {
+            "value": null
+        },
+        "networkInterfaces_db4981_name": {
+            "value": null
+        },
+        "networkInterfaces_db5277_name": {
+            "value": null
+        },
+        "networkInterfaces_db5325_name": {
+            "value": null
+        },
+        "networkInterfaces_db5952_name": {
+            "value": null
+        },
+        "networkInterfaces_db6215_name": {
+            "value": null
+        },
+        "networkInterfaces_db6387_name": {
+            "value": null
+        },
+        "networkInterfaces_db6792_name": {
+            "value": null
+        },
+        "networkInterfaces_db6915_name": {
+            "value": null
+        },
+        "virtualMachines_ContentDB_name": {
+            "value": null
+        },
+        "networkInterfaces_db16445_name": {
+            "value": null
+        },
+        "networkInterfaces_db16723_name": {
+            "value": null
+        },
+        "networkInterfaces_db62746_name": {
+            "value": null
+        },
+        "networkInterfaces_db62795_name": {
+            "value": null
+        },
+        "networkInterfaces_db62979_name": {
+            "value": null
+        },
+        "networkInterfaces_job1733_name": {
+            "value": null
+        },
+        "virtualMachines_AppServer1_name": {
+            "value": null
+        },
+        "virtualMachines_JumpServer1_name": {
+            "value": null
+        },
+        "virtualMachines_ContentTools_name": {
+            "value": null
+        },
+        "loadBalancers_adLoadBalancer_name": {
+            "value": null
+        },
+        "publicIPAddresses_adPublicIP_name": {
+            "value": null
+        },
+        "networkSecurityGroups_DB4_nsg_name": {
+            "value": null
+        },
+        "networkSecurityGroups_DB5_nsg_name": {
+            "value": null
+        },
+        "networkSecurityGroups_DB6_nsg_name": {
+            "value": null
+        },
+        "virtualMachines_ATG_Accounting_name": {
+            "value": null
+        },
+        "networkInterfaces_contentdb374_name": {
+            "value": null
+        },
+        "networkInterfaces_contentdb818_name": {
+            "value": null
+        },
+        "networkInterfaces_contentdb831_name": {
+            "value": null
+        },
+        "networkInterfaces_contentdb914_name": {
+            "value": null
+        },
+        "networkSecurityGroups_DB16_nsg_name": {
+            "value": null
+        },
+        "networkSecurityGroups_DB62_nsg_name": {
+            "value": null
+        },
+        "networkSecurityGroups_Job1_nsg_name": {
+            "value": null
+        },
+        "networkInterfaces_appserver1154_name": {
+            "value": null
+        },
+        "networkInterfaces_appserver1389_name": {
+            "value": null
+        },
+        "networkSecurityGroups_DB4nsg115_name": {
+            "value": null
+        },
+        "networkSecurityGroups_DB4nsg298_name": {
+            "value": null
+        },
+        "networkSecurityGroups_DB5nsg123_name": {
+            "value": null
+        },
+        "networkSecurityGroups_DB5nsg517_name": {
+            "value": null
+        },
+        "networkSecurityGroups_DB6nsg400_name": {
+            "value": null
+        },
+        "networkSecurityGroups_DB6nsg460_name": {
+            "value": null
+        },
+        "networkSecurityGroups_DB6nsg640_name": {
+            "value": null
+        },
+        "networkInterfaces_jumpserver1554_name": {
+            "value": null
+        },
+        "networkSecurityGroups_DB16nsg318_name": {
+            "value": null
+        },
+        "networkSecurityGroups_DB16nsg981_name": {
+            "value": null
+        },
+        "networkSecurityGroups_DB62nsg662_name": {
+            "value": null
+        },
+        "networkSecurityGroups_DB62nsg740_name": {
+            "value": null
+        },
+        "publicIPAddresses_JumpServer1_ip_name": {
+            "value": null
+        },
+        "availabilitySets_adAvailabiltySet_name": {
+            "value": null
+        },
+        "networkInterfaces_contenttools298_name": {
+            "value": null
+        },
+        "storageAccounts_2vmzo4mqlfyhkadsa_name": {
+            "value": null
+        },
+        "storageAccounts_atglowerrgdiag337_name": {
+            "value": null
+        },
+        "networkInterfaces_atg_accounting292_name": {
+            "value": null
+        },
+        "networkInterfaces_atg_accounting685_name": {
+            "value": null
+        },
+        "networkInterfaces_atg_accounting822_name": {
+            "value": null
+        },
+        "networkInterfaces_atg_accounting954_name": {
+            "value": null
+        },
+        "networkSecurityGroups_ContentDB_nsg_name": {
+            "value": null
+        },
+        "networkSecurityGroups_AppServer1_nsg_name": {
+            "value": null
+        },
+        "networkSecurityGroups_ContentDBnsg250_name": {
+            "value": null
+        },
+        "networkSecurityGroups_ContentDBnsg675_name": {
+            "value": null
+        },
+        "networkSecurityGroups_ContentDBnsg743_name": {
+            "value": null
+        },
+        "networkSecurityGroups_JumpServer1_nsg_name": {
+            "value": null
+        },
+        "networkSecurityGroups_AppServer1nsg253_name": {
+            "value": null
+        },
+        "networkSecurityGroups_ContentTools_nsg_name": {
+            "value": null
+        },
+        "subnets_adSubnet_name": {
+            "value": null
+        },
+        "networkSecurityGroups_ATG_Accounting_nsg_name": {
+            "value": null
+        },
+        "networkSecurityGroups_ATGAccountingnsg212_name": {
+            "value": null
+        },
+        "networkSecurityGroups_ATGAccountingnsg702_name": {
+            "value": null
+        },
+        "networkSecurityGroups_ATGAccountingnsg776_name": {
+            "value": null
+        },
+        "extensions_CreateADForest_name": {
+            "value": null
+        },
+        "extensions_IaaSAntimalware_name": {
+            "value": null
+        },
+        "disks_DB4_disk2_42f6e5eae4124e50831d33fe297919bd_name": {
+            "value": null
+        },
+        "disks_DB4_disk2_756f09035ecf4352b9dfcc7dbfbe9dd6_name": {
+            "value": null
+        },
+        "disks_DB4_disk2_a64311d5331d413e87df9582d6824467_name": {
+            "value": null
+        },
+        "disks_DB5_disk2_167ec29cfd644d6d923beda9242aad90_name": {
+            "value": null
+        },
+        "disks_DB5_disk2_4764220e8f614c0dab06b640378dc735_name": {
+            "value": null
+        },
+        "disks_DB5_disk2_b62848a043124d47abf52b55b7938ab9_name": {
+            "value": null
+        },
+        "disks_DB6_disk2_034cdbc74baf433f9bb22adab978474b_name": {
+            "value": null
+        },
+        "disks_DB6_disk2_9567291abd934894a61c89b7c015a280_name": {
+            "value": null
+        },
+        "disks_DB6_disk2_ae83f968a96d47568452409d3138ddc5_name": {
+            "value": null
+        },
+        "disks_DB6_disk2_d8c48b7b07cb41b19b3a120555223297_name": {
+            "value": null
+        },
+        "disks_DB16_disk2_8644e1334b1c4ee7960134305781a927_name": {
+            "value": null
+        },
+        "disks_DB16_disk2_ab2c6ed0ac5f47ae8747e38c2d09c23c_name": {
+            "value": null
+        },
+        "disks_DB16_disk2_c0b0860e52824112883d620020746459_name": {
+            "value": null
+        },
+        "disks_DB62_disk2_a2ef1f5e8ef745c582d51b0e82969944_name": {
+            "value": null
+        },
+        "disks_DB62_disk2_a7de145b6fa24e3d91bf5c606f8248e4_name": {
+            "value": null
+        },
+        "disks_DB62_disk2_fae87097137646dd9eb387454cfd8dd2_name": {
+            "value": null
+        },
+        "disks_DB4_OsDisk_1_695485a17e65448f935d84f5564f347b_name": {
+            "value": null
+        },
+        "disks_DB4_OsDisk_1_8390d73abd6f4c04be94226eeb0c8e5c_name": {
+            "value": null
+        },
+        "disks_DB4_OsDisk_1_dcbd8b0a7db242aa914b7179c9901d0a_name": {
+            "value": null
+        },
+        "disks_DB5_OsDisk_1_5b00bac85ebe4670be6d0fb67b51c150_name": {
+            "value": null
+        },
+        "disks_DB5_OsDisk_1_7b2904e4f8b44822bfa92cfd749b1830_name": {
+            "value": null
+        },
+        "disks_DB5_OsDisk_1_8fb27a5599444b40b526491eb0a32bdc_name": {
+            "value": null
+        },
+        "disks_DB6_OsDisk_1_1310296e8d9a4810bb0b66354752a412_name": {
+            "value": null
+        },
+        "disks_DB6_OsDisk_1_1d790f873a344d9594cac17e0df9c78b_name": {
+            "value": null
+        },
+        "disks_DB6_OsDisk_1_a6bb82f2d35d4bb2b43417a5538a0b2c_name": {
+            "value": null
+        },
+        "disks_DB6_OsDisk_1_e448eedd801442bb99f08930b5456699_name": {
+            "value": null
+        },
+        "disks_DB16_OsDisk_1_dfd673229a1a45a1967340889b30c846_name": {
+            "value": null
+        },
+        "disks_DB16_OsDisk_1_ec1028b3ada74335853f210066c10784_name": {
+            "value": null
+        },
+        "disks_DB16_OsDisk_1_f2699875ad70461c9b339641b0a0f1f2_name": {
+            "value": null
+        },
+        "disks_DB62_OsDisk_1_0479353e35484195932321cef4b34c94_name": {
+            "value": null
+        },
+        "disks_DB62_OsDisk_1_3f5baf16c1ff4191b3ed1c7d66b636e3_name": {
+            "value": null
+        },
+        "disks_DB62_OsDisk_1_72b0889547a34e7e9791c10009a833f3_name": {
+            "value": null
+        },
+        "disks_Job1_OsDisk_1_97c97c5d541b445fb8a453d02e851d15_name": {
+            "value": null
+        },
+        "extensions_IaaSAntimalware_name_1": {
+            "value": null
+        },
+        "disks_ContentDB_disk2_4c1df1df8ab247a8bed24312f324a3fb_name": {
+            "value": null
+        },
+        "disks_ContentDB_disk2_6d6f3d974f984a45b741a460c6b0f288_name": {
+            "value": null
+        },
+        "disks_ContentDB_disk2_bd7fe76a40724f6fafed54797a70f492_name": {
+            "value": null
+        },
+        "disks_ContentDB_disk2_ca320e750bc34085af036a3b30af7af1_name": {
+            "value": null
+        },
+        "extensions_IaaSAntimalware_name_2": {
+            "value": null
+        },
+        "securityRules_ps_name": {
+            "value": null
+        },
+        "disks_ContentDB_OsDisk_1_84786f67a2854778ba0dde9605e17c6a_name": {
+            "value": null
+        },
+        "disks_ContentDB_OsDisk_1_8650c44a7ce64734b4d56570981ba15e_name": {
+            "value": null
+        },
+        "disks_ContentDB_OsDisk_1_c474155893b941469bd6b5415b7fb406_name": {
+            "value": null
+        },
+        "disks_ContentDB_OsDisk_1_f6881e998f9e4dd492ef849a50ec368d_name": {
+            "value": null
+        },
+        "disks_AppServer1_OsDisk_1_60f155ecf907466fb286ca9522e2c349_name": {
+            "value": null
+        },
+        "disks_AppServer1_OsDisk_1_e1e84af8a2004d69bfc1dd43f3cf10ba_name": {
+            "value": null
+        },
+        "disks_ATG_Accounting_disk2_6c4214debbe4480599bdf1c59dd323bc_name": {
+            "value": null
+        },
+        "disks_ATG_Accounting_disk2_6df15767536a4f7eb112a652678a0621_name": {
+            "value": null
+        },
+        "disks_ATG_Accounting_disk2_7d9b930d7fb44e03aa1bd14014c2a3f0_name": {
+            "value": null
+        },
+        "disks_ATG_Accounting_disk2_88dd9d85924643a69a29c9ee00e459e9_name": {
+            "value": null
+        },
+        "disks_JumpServer1_OsDisk_1_ff79a4b6003a49019c2c56b5117fb714_name": {
+            "value": null
+        },
+        "disks_ContentTools_OsDisk_1_e867b889349e442b93e2b3f70b1bf7a8_name": {
+            "value": null
+        },
+        "securityRules_default_allow_rdp_name": {
+            "value": null
+        },
+        "securityRules_default_allow_rdp_name_1": {
+            "value": null
+        },
+        "securityRules_default_allow_rdp_name_2": {
+            "value": null
+        },
+        "disks_ATG_Accounting_OsDisk_1_28bc99f83a7e411dbbd59baaf61a58b4_name": {
+            "value": null
+        },
+        "disks_ATG_Accounting_OsDisk_1_3673283fdcb24ea2881dadec21683bf2_name": {
+            "value": null
+        },
+        "disks_ATG_Accounting_OsDisk_1_4fdf3bad248e48a5b1acc45dfce6f1b9_name": {
+            "value": null
+        },
+        "disks_ATG_Accounting_OsDisk_1_7f26524d66254682824f7237bed42ab0_name": {
+            "value": null
+        },
+        "securityRules_default_allow_rdp_name_3": {
+            "value": null
+        },
+        "securityRules_default_allow_rdp_name_4": {
+            "value": null
+        },
+        "securityRules_default_allow_rdp_name_5": {
+            "value": null
+        },
+        "securityRules_default_allow_rdp_name_6": {
+            "value": null
+        },
+        "securityRules_default_allow_rdp_name_7": {
+            "value": null
+        },
+        "securityRules_default_allow_rdp_name_8": {
+            "value": null
+        },
+        "securityRules_default_allow_rdp_name_9": {
+            "value": null
+        },
+        "securityRules_default_allow_rdp_name_10": {
+            "value": null
+        },
+        "securityRules_default_allow_rdp_name_11": {
+            "value": null
+        },
+        "securityRules_default_allow_rdp_name_12": {
+            "value": null
+        },
+        "securityRules_default_allow_rdp_name_13": {
+            "value": null
+        },
+        "securityRules_default_allow_rdp_name_14": {
+            "value": null
+        },
+        "securityRules_default_allow_rdp_name_15": {
+            "value": null
+        },
+        "securityRules_default_allow_rdp_name_16": {
+            "value": null
+        },
+        "securityRules_default_allow_rdp_name_17": {
+            "value": null
+        },
+        "securityRules_default_allow_rdp_name_18": {
+            "value": null
+        },
+        "securityRules_default_allow_rdp_name_19": {
+            "value": null
+        },
+        "securityRules_default_allow_rdp_name_20": {
+            "value": null
+        },
+        "securityRules_default_allow_rdp_name_21": {
+            "value": null
+        },
+        "securityRules_default_allow_rdp_name_22": {
+            "value": null
+        },
+        "securityRules_default_allow_rdp_name_23": {
+            "value": null
+        },
+        "securityRules_default_allow_rdp_name_24": {
+            "value": null
+        },
+        "securityRules_default_allow_rdp_name_25": {
+            "value": null
+        },
+        "securityRules_default_allow_rdp_name_26": {
+            "value": null
+        },
+        "securityRules_default_allow_rdp_name_27": {
+            "value": null
+        },
+        "loadBalancers_adLoadBalancer_id": {
+            "value": null
+        }
+    }
+}
